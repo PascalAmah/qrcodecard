@@ -5,8 +5,7 @@ body {
 }
 
 .container {
-    margin: 0;
-    padding: 110px;
+    min-height: 97vh
     align-items: center;
     justify-content: center;
     display: flex;
