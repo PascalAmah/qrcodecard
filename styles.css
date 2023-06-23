@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-    min-height: 97vh
+    position: absolute;
+    height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -15,11 +16,13 @@ body {
 .card {
     width: 250px;
     height: 400px;
-    padding: 13px;
+    padding: 15px;
     border-radius: 18px;
     background-color: white;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 img {
@@ -28,7 +31,7 @@ img {
 }
 
 .barCode-details {
-    margin: 20px;
+    margin: 15px;
     justify-content: center;
 }
 
