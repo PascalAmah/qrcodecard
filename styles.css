@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-    position: absolute;
-    height: 100%;
+    width: auto;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     display: flex;
